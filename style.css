@@ -1,36 +1,58 @@
-header{
-    background: gainsboro;
-    padding:20px;
-    }
-    .inicio-pagina{
-        width:940px;
-        position: relative;
-        margin: 0;
-       
-        
-        
-    }
-    nav{
-        position: absolute;
-        top: 40px;
-        right: 0;
-      
-    }
-    nav li{
-        display: inline-block;
-        margin-left: 20px;
-        
-    
-    }
-    nav a{
-        color: black;
-        text-decoration: none;
-        font-weight: bold;
-        text-transform: uppercase;
-     
-        
-    }
-    nav a:hover{
-        color: darkgreen;
-        text-decoration: underline;
-    }
+header {
+  background: gainsboro;
+  padding: 0;
+}
+.inicio-pagina {
+  width: 940px;
+  position: relative;
+  margin: 0;
+}
+
+nav {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  
+}
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+ 
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+nav a:hover {
+  color: darkgreen;
+  text-decoration: underline;
+}
+#menu{
+    background-color: antiquewhite;
+}
+#menu li{
+    display: inline-block;
+    margin-left: 310px;
+    margin-top:0;
+}
+#menu a{
+    color: black;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: darkgreen;
+}
+.cardapio{background-color: gainsboro;
+}
+.cardapio ul{
+    display: inline-block;
+    margin-left: 350px;
+    margin-top: 0;
+    padding-top: 10px;
+}
+h3{
+    text-align: center;
+}
