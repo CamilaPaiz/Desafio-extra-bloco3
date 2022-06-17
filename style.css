@@ -2,12 +2,15 @@
     margin:0;
     padding: 0;
 }
-header {
-  background: gainsboro;
-  
+body{
+    background-color: antiquewhite;
+}
+
+header img{
+    width: 50%;
+    margin-left:100px;
 }
 .inicio-pagina {
- 
 padding: 60px 30px 40px;
   margin: 0; 
   background-repeat: no-repeat;
@@ -37,13 +40,15 @@ nav a:hover {
   color: darkgreen;
   text-decoration: underline;
 }
-#menu{
-    background-color: antiquewhite;
-}
+
 #menu li{
     display: inline-block;
     margin-left: 310px;
     margin-top:0;
+}
+#menu img{
+    border-radius: 25px 25px 25px 25px;
+   
 }
 #menu a{
     color: black;
@@ -52,7 +57,7 @@ nav a:hover {
 #menu a:hover{
     color: darkgreen;
 }
-.cardapio{background-color: gainsboro;
+.cardapio{background-color: rgb(255, 224, 224);
 }
 .cardapio ul{
     display: inline-block;
@@ -70,6 +75,7 @@ h3{
 .depoimentos{
     padding: 30px 70px 90px 70px;
     text-align: center;
+    
 }
 .depoimentos-indvidual{
     width: 30%;
@@ -83,4 +89,16 @@ h3{
 }
 .depoimentos-indvidual img{
     border-radius: 50%;
+}
+.fotos-no-restaurante{
+    text-align: center;
+} 
+aside img{
+    padding: 50px;
+    width: 150px;
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    padding: 100px;
 }
