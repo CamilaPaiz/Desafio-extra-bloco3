@@ -3,18 +3,23 @@
     padding: 0;
 }
 body{
-    background-color: antiquewhite;
+    background-color: #F9EBC8;
+    
 }
 
 header img{
-    width: 50%;
+    width: 500px;
+    height: 450px;
     margin-left:100px;
+   
 }
 .inicio-pagina {
 padding: 60px 30px 40px;
   margin: 0; 
   background-repeat: no-repeat;
- position: relative;
+  background-image: url(restaurante.jpg);
+   background-size: cover;
+
 }
 
 nav {
@@ -34,6 +39,8 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
   
 }
 nav a:hover {
@@ -48,32 +55,37 @@ nav a:hover {
 }
 #menu img{
     border-radius: 25px 25px 25px 25px;
+    width: 150px;
+    height: 150px;
    
 }
 #menu a{
     color: black;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 #menu a:hover{
     color: darkgreen;
 }
-.cardapio{background-color: rgb(255, 224, 224);
+.cardapio{background-color: #FEFBE7;
 }
 .cardapio ul{
     display: inline-block;
     margin-left: 380px;
     margin-top: 0;
     padding-top: 10px;
+    font-style: italic;
 }
 h3{
     text-align: center;
 }
 .depoimentos h4 p{
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
 }
 .depoimentos{
-    padding: 30px 70px 90px 70px;
+    padding: 50px 70px 90px 70px;
     text-align: center;
     
 }
@@ -83,11 +95,13 @@ h3{
     display: inline-block;
 }
 .depoimentos-indvidual h4{
-    margin-top: 10px;
+    margin-top: 100px;
     padding: 10px;
     
 }
 .depoimentos-indvidual img{
+    width: 150px;
+    height:150px;
     border-radius: 50%;
 }
 .fotos-no-restaurante{
@@ -96,8 +110,13 @@ h3{
 aside img{
     padding: 50px;
     width: 150px;
-    border-radius: 50%;
+    height: 150px;
+    margin-top: 50px;
+   margin-left: 800px;
+    display:block;
+
 }
+
 footer{
     text-align: center;
     padding: 100px;
